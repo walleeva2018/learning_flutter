@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-
-void main(){
+import 'local_detail.dart';
+void main() {
   return runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        title: const Text("rafi"),
-        ),
-        ),
-  ));
+    home: LocalDetail(),)
+  );
 }
+
+
